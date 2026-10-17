@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Nikhil Kalekar | Portfolio</title>
+    <meta name="description" content="Official portfolio of Nikhil Tanaji Kalekar, MCA student and web developer.">
+    <meta name="theme-color" content="#0b1020">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <header class="navbar">
+        <a href="#home" class="brand" aria-label="Nikhil Kalekar Home">
+            <span class="logo-fallback">NK</span>
+            <img src="images/nk-logo.png"
+                 alt="NK Logo"
+                 class="logo-image"
+                 onerror="this.style.display='none'">
+            <span class="brand-name">Nikhil<span>.</span></span>
+        </a>
+
+        <button class="menu-toggle" id="menu-toggle"
+                aria-label="Open navigation menu"
+                aria-expanded="false">
+            ☰
+        </button>
+
+        <nav class="nav-links" id="nav-links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#education">Education</a>
+            <a href="#projects">Projects</a>
+            <a href="#certifications">Certificates</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- HOME -->
+        <section id="home" class="hero section">
+            <div class="hero-content">
+                <p class="eyebrow">WELCOME TO MY PORTFOLIO</p>
+
+                <h1>Hi, I'm <span>Nikhil Kalekar</span></h1>
+
+                <h2>MCA Student &amp; Web Developer</h2>
+
+                <p class="hero-description">
+                    I enjoy creating websites, learning new technologies
+                    and turning creative ideas into digital experiences.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">Explore My Work</a>
+                    <a href="#contact" class="btn btn-outline">Contact Me</a>
+                </div>
+
+                <div class="social-links">
+                    <a href="https://github.com/O0028"
+                       target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+
+                    <a href="https://www.linkedin.com/in/nikhil-kalekar"
+                       target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+                </div>
+            </div>
+
+            <div class="hero-visual">
+                <div class="glow-circle"></div>
+                <div class="code-card">
+                    <div class="code-top">
+                        <span></span><span></span><span></span>
+                        <p>developer.js</p>
+                    </div>
+                    <pre><code><span class="code-purple">const</span> developer = {
+  name: <span class="code-green">"Nikhil Kalekar"</span>,
+  education: <span class="code-green">"MCA"</span>,
+  skills: [
+    <span class="code-green">"HTML"</span>,
+    <span class="code-green">"CSS"</span>,
+    <span class="code-green">"JavaScript"</span>
+  ],
+  learning: <span class="code-green">"Every day"</span>,
+  mindset: <span class="code-green">"Keep building"</span>
+};
+
+<span class="code-blue">console</span>.log(developer);</code></pre>
+                </div>
+                <div class="floating-tag tag-one">Creative ideas ✦</div>
+                <div class="floating-tag tag-two">Always learning ↗</div>
+            </div>
+        </section>
+
+        <!-- ABOUT -->
+        <section id="about" class="section">
+            <div class="section-heading">
+                <p class="eyebrow">GET TO KNOW ME</p>
+                <h2>About <span>Me</span></h2>
+            </div>
+
+            <div class="about-card">
+                <div class="about-icon">NK</div>
+                <div>
+                    <h3>A student with a passion for technology</h3>
+                    <p>
+                        Hello! I'm Nikhil Tanaji Kalekar, an MCA first-semester
+                        student in D.Y.PATIL collage in Talsande.interested in web development and computer
+                        applications. I like exploring new tools, practising
+                        coding and improving my technical skills through projects.
+                    </p>
+                    <p>
+                        My goal is to keep learning, build useful digital
+                        experiences and grow as a developer.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- SKILLS -->
+        <section id="skills" class="section">
+            <div class="section-heading">
+                <p class="eyebrow">WHAT I WORK WITH</p>
+                <h2>My <span>Skills</span></h2>
+            </div>
+
+            <div class="skills-grid">
+                <article class="skill-card">
+                    <span class="skill-symbol">5</span>
+                    <h3>HTML</h3>
+                    <p>Web page structure</p>
+                </article>
+
+                <article class="skill-card">
+                    <span class="skill-symbol">#</span>
+                    <h3>CSS</h3>
+                    <p>Styling and responsive layouts</p>
+                </article>
+
+                <article class="skill-card">
+                    <span class="skill-symbol">JS</span>
+                    <h3>JavaScript</h3>
+                    <p>Interactive web experiences</p>
+                </article>
+
+                <article class="skill-card">
+                    <span class="skill-symbol">W</span>
+                    <h3>MS Word</h3>
+                    <p>Documents and formatting</p>
+                </article>
+
+                <article class="skill-card">
+                    <span class="skill-symbol">X</span>
+                    <h3>MS Excel</h3>
+                    <p>Spreadsheets and data</p>
+                </article>
+
+                <article class="skill-card">
+                    <span class="skill-symbol">@</span>
+                    <h3>Internet &amp; Email</h3>
+                    <p>Online tools and communication</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- EDUCATION -->
+        <section id="education" class="section">
+            <div class="section-heading">
+                <p class="eyebrow">MY LEARNING JOURNEY</p>
+                <h2>My <span>Education</span></h2>
+            </div>
+
+            <div class="timeline">
+                <article class="timeline-card">
+                    <span class="timeline-dot"></span>
+                    <p class="timeline-label">CURRENT</p>
+                    <h3>Master of Computer Applications (MCA)</h3>
+                    <p>MCA — First Semester</p>
+                </article>
+
+                <article class="timeline-card">
+                    <span class="timeline-dot"></span>
+                    <h3>Bachelor of Computer Applications (BCA)</h3>
+                    <p>Gopal Krishna Gokhale College</p>
+                </article>
+
+                <article class="timeline-card">
+                    <span class="timeline-dot"></span>
+                    <h3>Higher Secondary Certificate (HSC)</h3>
+                    <p>Babasaheb Patil College, Kotoli</p>
+                </article>
+
+                <article class="timeline-card">
+                    <span class="timeline-dot"></span>
+                    <h3>Secondary School Certificate (SSC)</h3>
+                    <p>M. V. Ghotavde</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- PROJECTS -->
+        <section id="projects" class="section">
+            <div class="section-heading">
+                <p class="eyebrow">THINGS I'M BUILDING</p>
+                <h2>My <span>Projects</span></h2>
+            </div>
+
+            <div class="coming-soon">
+                <div class="coming-icon">⌘</div>
+                <h3>Projects Coming Soon</h3>
+                <p>
+                    I'm working on improving my skills and building projects.
+                    My work will be showcased here soon.
+                </p>
+                <a href="https://github.com/O0028"
+                   target="_blank" rel="noopener noreferrer"
+                   class="btn btn-outline">Visit My GitHub ↗</a>
+            </div>
+        </section>
+
+        <!-- CERTIFICATIONS -->
+        <section id="certifications" class="section">
+            <div class="section-heading">
+                <p class="eyebrow">MY ACHIEVEMENTS</p>
+                <h2>My <span>Certifications</span></h2>
+                <p class="section-description">
+                    Explore my certificates using the buttons below.
+                </p>
+            </div>
+
+            <div class="certificates-grid">
+
+
+                <article class="certificate-card">
+                    <div class="certificate-icon">✧</div>
+                    <h3><i>Cybersecurity Simulation</i></h3>
+                    <p><i></i></p>
+                    <a class="btn btn-certificate"
+                       href="images/CSC Simulation.jpg"
+                       target="_blank" rel="noopener noreferrer">
+                        View Certificate ↗
+                    </a>
+                </article>
+
+                <article class="certificate-card">
+                    <div class="certificate-icon">✧</div>
+                    <h3><i>Data Science</i></h3>
+                    <p></p>
+                    <a class="btn btn-certificate"
+                       href="images/Data Science.jpg"
+                       target="_blank" rel="noopener noreferrer">
+                        View Certificate ↗
+                    </a>
+                </article>
+
+                <article class="certificate-card">
+                    <div class="certificate-icon">✧</div>
+                    <h3>Cybersecurity Analyst</h3>
+                    <p></p>
+                    <a class="btn btn-certificate"
+                       href="images/CSA.jpg"
+                       target="_blank" rel="noopener noreferrer">
+                        View Certificate ↗
+                    </a>
+                </article>
+
+                <article class="certificate-card">
+                    <div class="certificate-icon">✧</div>
+                    <h3>Critical Thinking</h3>
+                    <p></p>
+                    <a class="btn btn-certificate"
+                       href="images/Critical Thinking In The AI ERA.jpg"
+                       target="_blank" rel="noopener noreferrer">
+                        View Certificate ↗
+                    </a>
+                </article>
+
+                <article class="certificate-card">
+                    <div class="certificate-icon">✧</div>
+                    <h3>Professional Networking</h3>
+                    <p></p>
+                    <a class="btn btn-certificate"
+                       href="images/Proffessional Networking.jpg"
+                       target="_blank" rel="noopener noreferrer">
+                        View Certificate ↗
+                    </a>
+                </article>
+
+
+            </div>
+
+            <p class="certificate-note">
+                Only add certificates you have actually earned.
+            </p>
+        </section>
+
+        <!-- CONTACT -->
+        <section id="contact" class="section">
+            <div class="section-heading">
+                <p class="eyebrow">LET'S CONNECT</p>
+                <h2>Contact <span>Me</span></h2>
+                <p class="section-description">
+                    Have an idea or want to connect? Feel free to reach out.
+                </p>
+            </div>
+
+            <div class="contact-card">
+                <div class="contact-item">
+                    <span class="contact-icon">@</span>
+                    <div>
+                        <h3>Email</h3>
+                        <a href="mailto:neelkalekar251@gmail.com">
+                            neelkalekar251@gmail.com
+                        </a>
+                    </div>
+                </div>
+
+                <div class="contact-item">
+                    <span class="contact-icon">GH</span>
+                    <div>
+                        <h3>GitHub</h3>
+                        <a href="https://github.com/O0028"
+                           target="_blank" rel="noopener noreferrer">
+                            github.com/O0028 ↗
+                        </a>
+                    </div>
+                </div>
+
+                <div class="contact-item">
+                    <span class="contact-icon">in</span>
+                    <div>
+                        <h3>LinkedIn</h3>
+                        <a href="https://www.linkedin.com/in/nikhil-kalekar-1b930b326/"
+                           target="_blank" rel="noopener noreferrer">
+                            Connect with me ↗
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <a href="#home" class="footer-brand">NK<span>.</span></a>
+        <p>Designed &amp; built by Nikhil Kalekar</p>
+        <p>© <span id="current-year"></span> All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
